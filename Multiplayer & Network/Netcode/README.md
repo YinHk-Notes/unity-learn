@@ -199,7 +199,7 @@ To run custom code once per network tick (before `NetworkVariable` changes are c
 
 The **tick rate** is the frequency with which the server updates the game state.
 
-A single update of a game simulation is known as a tick. The rate at which the simulation is run on a server is referred often to as the server's tickrate; this is essentially the server equivalent of a client's frame rate, absent any rendering system.
+**A single update of a game simulation is known as a tick**. The rate at which the simulation is run on a server is referred often to as the server's tickrate; this is essentially the server equivalent of a client's frame rate, absent any rendering system.
 
 
 > When using **FixedUpdate** or physics in your game, set the network tick rate to the same rate as the fixed update rate. The **FixedUpdate** rate can be changed in **Edit > Project Settings > Time > Fixed Timestep**
